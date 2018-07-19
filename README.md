@@ -31,3 +31,18 @@ public class Employee
         return emp_sal;
     }
 }
+
+
+# Main
+public class Main {
+    public static void main(String[] args) {
+        Employee e1=new Employee();
+        e1.setEmp_id(101);
+        e1.setEmp_name("sneha");
+        e1.setEmp_sal(1000);
+
+        System.out.println("emp id is="+e1.getEmp_id());
+        System.out.println("emp name is="+e1.getEmp_name());
+        System.out.println("emp sal is="+e1.getEmp_sal());
+    }
+}
